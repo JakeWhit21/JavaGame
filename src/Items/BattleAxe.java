@@ -1,11 +1,11 @@
 package Items;
 
-public class Axe extends Item {
+public class BattleAxe extends Item {
 
     private int damage = 30;
 
-    public Axe() {
-        super("AXE");
+    public BattleAxe() {
+        super("BATTLE AXE");
     }
     
     @Override

@@ -3,7 +3,7 @@ import iface.GameOutput;
 import impl.ConsoleInput;
 import impl.ConsoleOutput;
 import Items.Item;
-import Items.Axe;
+import Items.BattleAxe;
 
 public class App {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class App {
 
         // output.output("Your name is " + name);
 
-        Item axe = new Axe();
+        Item axe = new BattleAxe();
 
         output.output(axe.getName());
         output.output(axe.getDescription());
